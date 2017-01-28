@@ -17,7 +17,6 @@ these packages are available via homebrew
 
 # TODO
 
-* parse top-level playlist to find the highest quality stream. This is presently a manual process.  gstreamer might just do this for free, i'm not sure
 * input validation, error checking, defensive programming, and all the other good practices presently ignored
 * Figure out the actual minimum set of gstreamer plugins needed so this script doesn't require them ALL to be installed.
 
