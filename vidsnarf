@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+gst-launch-1.0 souphttpsrc location="$1" !  hlsdemux ! filesink location=out.ts
+mkvmerge -o out.mkv out.ts
+rm out.ts
