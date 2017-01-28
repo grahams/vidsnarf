@@ -19,5 +19,5 @@ these packages are available via homebrew
 
 * input validation, error checking, defensive programming, and all the other good practices presently ignored
 * Figure out the actual minimum set of gstreamer plugins needed so this script doesn't require them ALL to be installed.
-
+* gstreamer + matroskamux should be able to eliminate the dep on mkvtoolnix
 
